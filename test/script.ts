@@ -1,3 +1,6 @@
-import HelloWorld from "../dist";
+import TranslateMessageRandom from "../dist";
 
-console.log(HelloWorld());
+async function test() {
+    console.log(await TranslateMessageRandom("Anakin it's over I have the high ground!"));
+}
+test();
